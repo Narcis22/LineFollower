@@ -77,8 +77,6 @@ void loop() {
   qtr.read(sensorValues);
 
   pidControl(kp, ki, kd);
-
-  controlLights();
  
   m1Speed = constrain(m1Speed, minSpeed, maxSpeed);
   m2Speed = constrain(m2Speed, minSpeed, maxSpeed);
@@ -90,6 +88,8 @@ void pidControl(float kp, float ki, float kd) {
   
   int error = map(qtr.readLineBlack(sensorValues), 0, 5000, -30, 30); 
 
+  controlLights(error);
+  
   p = error;
   i = i + error;
   d = error - lastError;
@@ -114,7 +114,6 @@ void pidControl(float kp, float ki, float kd) {
   else if(error > 20) {
     m1Speed -= 40;
   }
-
 }
 
 void setMotorSpeed(int motor1Speed, int motor2Speed) {
@@ -153,7 +152,7 @@ void setMotorSpeed(int motor1Speed, int motor2Speed) {
   }
 }
 
-void controlLights() {
+void controlLights(int error) {
   if (error > 5)  {
     digitalWrite(redLedPinRight, HIGH);
     digitalWrite(greenLedPinRight, HIGH);
