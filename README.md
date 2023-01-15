@@ -1,3 +1,5 @@
+  🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁
+  
   > <i>The line follower project consists of a little robot made from the components listed undedrneath(see Picture 1), that has to complete a course (white background with a black stripe) following the black line and compleating a full lap in the  fastest time(best out of 3 laps).  </i> <br>
 
  <i>Components</i>:
