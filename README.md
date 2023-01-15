@@ -34,4 +34,4 @@
 </details>
 
 <i><b>Video with contest lap: </b></i>
-[Go to youtube to see video.]()
+[Go to youtube to see video.](https://youtu.be/cpxjYtifI8o)
