@@ -13,8 +13,7 @@
   10. Breadboard - medium (400pts)
   11. L293D motor driver
   12. DC motors (2)
-  For bonus point i have added two "blinkijng headlights"
-  13. Two rgb Leds
+  13. (Bonus points for 'Blinkers') Two rgb Leds
  
 <details>
 <summary><i><b>Setup photos</b></i></summary>
