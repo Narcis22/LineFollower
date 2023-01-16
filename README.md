@@ -7,7 +7,7 @@
   
   🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁
   
-  > <i>The line follower project consists of a little robot made from the components listed undedrneath(see Picture 1), that has to complete a course (white background with a black stripe) following the black line and compleating a full lap in the  fastest time(best out of 3 laps).  </i> <br>
+  > <i>The line follower project consists of a little robot made from the components listed underneath (see Picture 1), that has to complete a course (white background with a black stripe) following the black line and completing a full lap in the fastest time (best out of 3 laps).  </i> <br>
 
  <i>Components</i>:
   1. Arduino Uno
@@ -22,7 +22,7 @@
   10. Breadboard - medium (400pts)
   11. L293D motor driver
   12. DC motors (2)
-  13. (Bonus points for 'Blinkers') Two rgb Leds
+  13. (Bonus points for 'Blinkers') Two RGB Leds
  
  
  [<i><b>Code</b></i>](https://github.com/Narcis22/LineFollower/blob/main/LineFollower.ino)
