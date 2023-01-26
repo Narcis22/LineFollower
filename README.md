@@ -16,7 +16,7 @@
   ### <i>Details</i>
   <b><i>Sensor Calibration</i></b>: There are more than one way to calibrate the machine but the most elegant one that we found was making the robot swivel to the left ultil the last sensor on the right sees the black tape, and then change direction of swivel until the last sensor on the left sees the black tape. It keeps repeting this process for a number of given seconds then proceeds to follow the line.
   
-  Tuning the software for the robot to make him fast and at the same time verry cunning in the corners required playing with the PID values for power and error correction values(did not touch i). The process was as follows:
+  Tuning the software for the robot to make him fast and at the same time very cunning in the corners required playing with the PID values for power and error correction values(did not touch i). The process was as follows:
    -  ajusted the PID values (not the i value) until the results were good enough but the car still had overshoot problems that couldn't be fixed with more power;
    -  after some trial and error we found some decent values for the PID but after some tests on sharper turns we found that adding power still couldn't correct that much because of the overshoot that would occure. So we managed to to change the former way of taking a turn from: stopping a wheel and moving the other at full throttle; to : moving a wheel atr full speed forward and the other full speed backwards.
    -  after the last test was a successand the robot managed to pass withouth fail multiple times all types of tracks we styarterd implementing the blinkers(optioonal for bonus)
