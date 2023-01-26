@@ -11,7 +11,7 @@
   > <i>The line follower project consists of a little robot made from the components listed underneath (see [Components](#components)), that has to complete a course (white background with a black stripe) following the black line and completing a full lap in the fastest time (best out of 3 laps).  </i> <br>
  
   ### <i>Task requirements</i>
-  > Given a robot kit, we had to assembled it and programmed it to follow the black line and to complete the course in less than 20s. This meant automatic calibration and a bonus for us.
+  > Given a robot kit, we had to assembled it and programmed it to follow the black line and to complete the course in less than 20s. Also we had to do automatic calibration and we choose to do turn signal indicators.
   
   ### <i>Details</i>
   <b><i>Sensor Calibration</i></b>: There are more than one way to calibrate the machine but the most elegant one that we found was making the robot swivel to the left ultil the last sensor on the right sees the black tape, and then change direction of swivel until the last sensor on the left sees the black tape. It keeps repeting this process for a number of given seconds then proceeds to follow the line.
