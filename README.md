@@ -1,15 +1,28 @@
 ***The Evil Knivels***
  ================
  
- > Made by Narcis Necula & Denisa Predescu
+ > Made by [Narcis Necula](https://github.com/Narcis22) & [Denisa Predescu](https://github.com/denisapredescu)
  >
  > Coordinated by Andrei Dumitriu
   
   🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁🚦🏎️⏲️🏁
   
-  > <i>The line follower project consists of a little robot made from the components listed underneath (see Picture 1), that has to complete a course (white background with a black stripe) following the black line and completing a full lap in the fastest time (best out of 3 laps).  </i> <br>
+  ### <i>Context</i>
+  > <i>The line follower project consists of a little robot made from the components listed underneath (see [Components](#components)), that has to complete a course (white background with a black stripe) following the black line and completing a full lap in the fastest time (best out of 3 laps).  </i> <br>
+ 
+  ### <i>Task requirements</i>
+  Given a robot kit, we had to assembled it and programmed it to follow the black line and to complete the course in less than 20s.
+  
+  ### <i>Details</i>
+  We had to test our robot on several tracks in order to bring it to the best shape.
+  
+  
+  
 
- <i>Components</i>:
+  ### <a name="components"></a><i>Components</i>:
+ <img src="https://user-images.githubusercontent.com/62501946/212529655-0b4233cc-996a-4588-9c81-03e6b01a0ffd.png" 
+ width="50%" height="50%">
+
   1. Arduino Uno
   2. Zip-ties
   3. Power source (can be of different shape). In our case, a LiPo battery
@@ -31,10 +44,12 @@
 <details>
 <summary><i><b>Setup photos</b></i></summary>
 <br> 
- 
- ![image](https://user-images.githubusercontent.com/62501946/212529655-0b4233cc-996a-4588-9c81-03e6b01a0ffd.png)
 
- <br>![IMG_1236](https://user-images.githubusercontent.com/62501946/212530192-3f48939c-fcc3-4220-8670-a135f8b630c2.jpg)
+<!--
+  ![image](https://user-images.githubusercontent.com/62501946/212529655-0b4233cc-996a-4588-9c81-03e6b01a0ffd.png)
+  -->
+
+<br>![IMG_1236](https://user-images.githubusercontent.com/62501946/212530192-3f48939c-fcc3-4220-8670-a135f8b630c2.jpg)
 
 <br>![IMG_1239](https://user-images.githubusercontent.com/62501946/212530198-288ea9b2-57aa-4519-b42d-2f514094efa6.jpg)
 
