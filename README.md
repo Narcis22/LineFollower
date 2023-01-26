@@ -19,7 +19,7 @@
   Tuning the software for the robot to make him fast and at the same time very cunning in the corners required playing with the PID values for power and error correction values(did not touch i). The process was as follows:
    -  ajusted the PID values (not the i value) until the results were good enough but the car still had overshoot problems that couldn't be fixed with more power;
    -  after some trial and error we found some decent values for the PID but after some tests on sharper turns we found that adding power still couldn't correct that much because of the overshoot that would occure. So we managed to to change the former way of taking a turn from: stopping a wheel and moving the other at full throttle; to : moving a wheel at full speed forward and the other full speed backwards.
-   -  after the last test was a success and the robot managed to pass withouth fail multiple times all types of tracks we styarterd implementing the blinkers(optioonal for bonus)
+   -  after the last test was a success and the robot managed to pass withouth fail multiple times all types of tracks we started implementing the blinkers(optional for bonus)
    - the blinkers are two led lights , one on the right and one on the left, for which we measured the error and depending on it we determined which and if a led blinks. We gave the error a buffer so that it doesn't consider the minor moves to keep a straight line as a turn and start blinking for no aparent reason.
    
 
